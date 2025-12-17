@@ -45,8 +45,8 @@ ttk.Button(window, text="7", ).grid(column=1, row=5)
 ttk.Button(window, text="8", ).grid(column=2, row=5)
 ttk.Button(window, text="9", ).grid(column=3, row=5)
 ttk.Button(window, text="0", ).grid(column=2, row=10)
-tk.Button(window, text="+").grid(column=4, row=2)
-tk.Button(window, text="=").grid(column=4, row=4)
+tk.Button(window, text="+").grid(column=4, row=3)
+tk.Button(window, text="=").grid(column=4, row=5)
 
 
 ttk.Button(window, text="calculate").grid(column=3, row=10) # créer un button avec marquer calculate dessus
